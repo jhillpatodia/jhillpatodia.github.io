@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <div className='main'>
+    <div className='main' style={{textAlign: 'center'}}>
       <h1>Hi, Welcome to Jhill's art and crafts</h1>
       <h2>Paintings coming soon...</h2>
       <div style={{textAlign: 'center'}}>
