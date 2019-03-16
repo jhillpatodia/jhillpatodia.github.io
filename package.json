@@ -2,7 +2,7 @@
   "name": "jhillpatodia.github.io",
   "version": "1.0.0",
   "private": true,
-  "homepage": "http://jhillpatodia.github.io",
+  "homepage": "http://jhillpatodia.github.io/home",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
