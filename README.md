@@ -1,1 +1,0 @@
-# jhillpatodia.github.io
