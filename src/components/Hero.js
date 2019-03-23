@@ -8,7 +8,7 @@ const Hero = () => {
       <div style={{textAlign: 'center'}}>
         <div style={{marginBottom: 6}}><b>FOR ORDERS:</b></div>
         <div><b style={{paddingRight: 6}}>Mail me at: </b>jhillsartandcrafts<span style={{fontFamily: 'sans-serif', fontSize: 12}}>@</span>gmail.com</div>
-        <div><b style={{paddingRight: 6}}>Contact: </b>+91 9401885232</div>
+        <div><b style={{paddingRight: 6}}>Contact: </b>+91 9101700198</div>
       </div>
     </div>
   );
