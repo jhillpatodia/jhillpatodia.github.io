@@ -10,7 +10,7 @@ const Hero = () => {
         <div className='main-orders'>
           <div className='mb-8'><b>FOR ORDERS:</b></div>
           <div className='mb-6'><b style={{paddingRight: 6}}>Mail me at: </b>jhillsartandcrafts@gmail.com</div>
-          <div><b style={{paddingRight: 6}}>Contact: </b>+91 9101700198</div>
+          <div><b style={{paddingRight: 6}}>Contact: </b><a href="tel:+91 9101700198">+91 9101700198</a></div>
         </div>
       </div>
     </div>
