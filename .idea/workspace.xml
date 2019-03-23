@@ -2,24 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fb8b9dd-41d5-4b3a-a340-66047990c9db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/main.6b0edb9d.chunk.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/main.6b0edb9d.chunk.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/precache-manifest.eaea1319ec926230cd3fc94d6f083036.js" beforeDir="false" afterPath="$PROJECT_DIR$/precache-manifest.603e0cdaaaf5c66bb7dc5fad44472376.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/main.0d346ded.chunk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/main.0d346ded.chunk.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/precache-manifest.603e0cdaaaf5c66bb7dc5fad44472376.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/precache-manifest.603e0cdaaaf5c66bb7dc5fad44472376.js" beforeDir="false" afterPath="$PROJECT_DIR$/precache-manifest.b0695729f9722ea6cd77bde0b3a91745.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.98415780.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.98415780.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.b7f691a4.chunk.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/main.cd76dfad.chunk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.b7f691a4.chunk.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/main.cd76dfad.chunk.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.6b0edb9d.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.6b0edb9d.chunk.css.map" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -80,12 +69,6 @@
               <item name="jhillpatodia.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="jhillpatodia.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jhillpatodia.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jhillpatodia.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -132,7 +115,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2596000" />
+    <option name="totallyTimeSpent" value="2702000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="41" y="-4" width="1325" height="772" extended-state="6" />
@@ -177,10 +160,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/manifest.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
