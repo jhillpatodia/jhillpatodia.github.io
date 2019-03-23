@@ -3,12 +3,13 @@
 // @import 'colors';
 
 //Variables
-$zIndex: 2;
+$empty: '';
 
 body {
   font-family: "Lato", 'sans-serif';
   margin: 0;
   color: #333;
+  letter-spacing: 0.01rem;
 }
 
 .main {
@@ -23,21 +24,25 @@ body {
     width: 90%;
   }
   &-orders {
+    margin-top: 32px;
     border-radius: 4px;
-    padding: 12px 8px;
-    font-size: 14px;
+    padding: 20px 10px 0;
+    font-size: 16px;
     position: relative;
     box-sizing: border-box;
     background-clip: padding-box;
     border: 5px solid transparent;
     background: #FFF;
     &:before {
-      content: '';
+      content: $empty;
       position: absolute;
-      top: 0; right: 0; bottom: 0; left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
       z-index: -1;
       margin: -7px;
-      border-radius: inherit;
+      border-radius: 4px;
       background: linear-gradient(to right, red, orange);
     }
   }
@@ -49,6 +54,24 @@ body {
     background: url('../assets/bg_building.png') no-repeat bottom;
     height: 30%;
     background-size: 200%;
+  }
+}
+
+.order {
+  position: absolute;
+  top: -20px;
+  left: 8px;
+  color: #FFF;
+  background: linear-gradient(to right, red, orange);
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &-title {
+    padding-right: 10px;
   }
 }
 
@@ -67,20 +90,36 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 
-h3 {
-  color: #061826;
+h3 {color: #061826;}
+
+.mb-8 {margin-bottom: 8px;}
+.mb-6 {margin-bottom: 6px;}
+.mr-8 {margin-right: 8px;}
+
+.contact {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+  &:not(:last-child) {
+    border-bottom: 1px solid #E7E7E7;
+  }
 }
 
-.mb-8 {
-  margin-bottom: 8px;
+.f-icon {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.mb-6 {
-  margin-bottom: 6px;
+.f-mobile {
+  font-size: 24px;
 }
 
 @media screen and (min-width: 481px) {
   .main {
+    height: 100vh;
     &-content {
       width: 90%;
       max-width: 390px;
