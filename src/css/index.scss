@@ -51,7 +51,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    background: url('../assets/bg_building.png') no-repeat bottom;
+    background: url('../assets/bg_building_1.png') no-repeat bottom;
     height: 30%;
     background-size: 200%;
   }
@@ -105,16 +105,25 @@ h3 {color: #061826;}
   }
 }
 
-.f-icon {
+.icons {
   width: 24px;
-  height: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
+  > img {
+    width: 18px;
+    vertical-align: middle;
+  }
 }
 
-.f-mobile {
-  font-size: 24px;
+.arrow-down {
+  width: 12px;
+  height: 12px;
+  border: 2px solid #FFF;
+  border-radius: 50%;
+  > img {
+    width: 16px;
+  }
 }
 
 @media screen and (min-width: 481px) {
