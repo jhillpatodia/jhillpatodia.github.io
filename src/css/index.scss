@@ -212,17 +212,22 @@ h3 {color: #061826;}
     grid-template-rows: minmax(160px, auto);
     grid-gap: 24px;
   }
-  &__img {
-    max-height: 100vh !important;
-    width: auto !important;
-    position: static !important;
-  }
-  &__zoom-wrap {
-    display: flex !important;
-    justify-content: center;
-    align-items: center;
-    transform: none !important;
-  }
+  // &__img {
+  //   max-height: 100vh !important;
+  //   width: auto !important;
+  //   position: static !important;
+  // }
+  // &__zoom-wrap {
+  //   display: flex !important;
+  //   align-items: center;
+  //   justify-content: center;
+  //   transform: none !important;
+  // }
+}
+
+.pswp img {
+  max-width: none;
+  object-fit: contain;
 }
 
 .card {

@@ -176,15 +176,10 @@ h3 {
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: minmax(160px, auto);
   grid-gap: 24px; }
-.pswp__img {
-  max-height: 100vh !important;
-  width: auto !important;
-  position: static !important; }
-.pswp__zoom-wrap {
-  display: flex !important;
-  justify-content: center;
-  align-items: center;
-  transform: none !important; }
+
+.pswp img {
+  max-width: none;
+  object-fit: contain; }
 
 .card {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
