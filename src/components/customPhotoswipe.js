@@ -1,8 +1,9 @@
 import React from 'react';
+import _ from 'lodash';
+import LazyLoad from 'react-lazyload';
 import {PhotoSwipeGallery} from 'react-photoswipe';
 import 'react-photoswipe/lib/photoswipe.css';
 import { data } from '../localService/data';
-import _ from 'lodash';
 
 let options = {
   shareEl: false,
@@ -20,7 +21,9 @@ class Ps extends React.Component {
   getThumbnailContent = (item) => {
     return (
       <div className="card">
-        <img src={item.thumb} width={320} height={240} style={{objectFit: 'cover'}} alt='' />
+        <LazyLoad height={240} once>
+          <img src={item.thumb} width={320} height={240} style={{objectFit: 'cover'}} alt='' />
+        </LazyLoad>
         <div className="card-details">
           <div className="gallery-item__title">{item.title}</div>
           <div className="gallery-item__details">

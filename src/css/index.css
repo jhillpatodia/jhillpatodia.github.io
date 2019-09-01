@@ -231,7 +231,7 @@ h3 {
   font-size: 10px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #FFF; }
+  color: #FAFAFA; }
   .goto-top-image {
     width: 16px;
     transform: rotate(180deg); }
@@ -265,8 +265,11 @@ h3 {
   .pswp-thumbnails {
     grid-template-columns: repeat(3, 1fr); } }
 @media screen and (min-width: 1601px) {
+  .gallery {
+    max-width: 1366px; }
+
   .pswp-thumbnails {
-    grid-template-columns: repeat(5, 1fr); } }
+    grid-template-columns: repeat(4, 1fr); } }
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px; }
