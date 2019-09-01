@@ -1,7 +1,3 @@
-// @import 'mixins';
-// @import 'variables';
-// @import 'colors';
-
 //Variables
 $empty: '';
 $white: #FFF;
@@ -212,17 +208,6 @@ h3 {color: #061826;}
     grid-template-rows: minmax(160px, auto);
     grid-gap: 24px;
   }
-  // &__img {
-  //   max-height: 100vh !important;
-  //   width: auto !important;
-  //   position: static !important;
-  // }
-  // &__zoom-wrap {
-  //   display: flex !important;
-  //   align-items: center;
-  //   justify-content: center;
-  //   transform: none !important;
-  // }
 }
 
 .pswp img {
@@ -291,7 +276,7 @@ h3 {color: #061826;}
   font-size: 10px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #FFF;
+  color: #FAFAFA;
   &-image {
     width: 16px;
     transform: rotate(180deg);
@@ -309,8 +294,6 @@ h3 {color: #061826;}
     color: #555;
   }
 }
-
-
 
 @media screen and (min-width: 481px) {
   .main {
@@ -342,8 +325,11 @@ h3 {color: #061826;}
 }
 
 @media screen and (min-width: 1601px) {
+  .gallery {
+    max-width: 1366px;
+  }
   .pswp-thumbnails {
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 

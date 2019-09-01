@@ -20,10 +20,11 @@ class App extends React.Component {
       <React.Fragment>
         {/*<Header />*/}
         <Hero />
+
         <Ps />
         <div className="footer-message">
           <div className="footer-message-text">&mdash; That's all folks &mdash;</div>
-          <a href="#main" className="goto-top" title="Back to top">
+          <a href="#main" className="goto-top" title="Back to top" aria-label="Go to landing page">
             <div>Back to top</div>
             <img src={require('../assets/arrow_down.png')} className="goto-top-image" alt='' />
           </a>

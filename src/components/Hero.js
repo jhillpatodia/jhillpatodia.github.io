@@ -20,7 +20,7 @@ const Hero = () => {
             <div className='icons mr-8'><img src={require('../assets/phone.png')} alt='' /></div>
             <a href="tel:+91 9101700198">+91 9101700198</a>
           </div>
-          <a className="arrow" href="#gallery">
+          <a className="arrow" href="#gallery" aria-label="Go to gallery">
             <img src={require('../assets/arrow_down.png')} className="arrow-image bounce" alt='' />
           </a>
         </div>
