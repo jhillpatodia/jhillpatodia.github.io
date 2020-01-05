@@ -1,17 +1,27 @@
 {
-  "main.css": "/static/css/main.7170f2dc.chunk.css",
-  "main.js": "/static/js/main.dc0b1d18.chunk.js",
-  "main.js.map": "/static/js/main.dc0b1d18.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-  "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-  "static/css/2.0c008a29.chunk.css": "/static/css/2.0c008a29.chunk.css",
-  "static/js/2.2db28e0d.chunk.js": "/static/js/2.2db28e0d.chunk.js",
-  "static/js/2.2db28e0d.chunk.js.map": "/static/js/2.2db28e0d.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.c93f487aad60cb6f361322db43bf4dd2.js": "/precache-manifest.c93f487aad60cb6f361322db43bf4dd2.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/2.0c008a29.chunk.css.map": "/static/css/2.0c008a29.chunk.css.map",
-  "static/css/main.7170f2dc.chunk.css.map": "/static/css/main.7170f2dc.chunk.css.map",
-  "static/media/index.css": "/static/media/bg_building_1.42352dfc.png",
-  "static/media/photoswipe.css": "/static/media/default-skin.b257fa9c.svg"
+  "files": {
+    "main.css": "/static/css/main.c4a53d6c.chunk.css",
+    "main.js": "/static/js/main.89e4cd45.chunk.js",
+    "main.js.map": "/static/js/main.89e4cd45.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.398341af.js",
+    "runtime-main.js.map": "/static/js/runtime-main.398341af.js.map",
+    "static/css/2.d45e8b06.chunk.css": "/static/css/2.d45e8b06.chunk.css",
+    "static/js/2.f8a53007.chunk.js": "/static/js/2.f8a53007.chunk.js",
+    "static/js/2.f8a53007.chunk.js.map": "/static/js/2.f8a53007.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.271fd6395050119c22ae803fa4d2bd55.js": "/precache-manifest.271fd6395050119c22ae803fa4d2bd55.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.d45e8b06.chunk.css.map": "/static/css/2.d45e8b06.chunk.css.map",
+    "static/css/main.c4a53d6c.chunk.css.map": "/static/css/main.c4a53d6c.chunk.css.map",
+    "static/js/2.f8a53007.chunk.js.LICENSE": "/static/js/2.f8a53007.chunk.js.LICENSE",
+    "static/media/index.css": "/static/media/bg_building_1.42352dfc.png",
+    "static/media/photoswipe.css": "/static/media/default-skin.b257fa9c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.398341af.js",
+    "static/css/2.d45e8b06.chunk.css",
+    "static/js/2.f8a53007.chunk.js",
+    "static/css/main.c4a53d6c.chunk.css",
+    "static/js/main.89e4cd45.chunk.js"
+  ]
 }
