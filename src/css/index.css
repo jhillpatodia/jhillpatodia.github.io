@@ -14,13 +14,13 @@ img {
   vertical-align: middle; }
 
 .main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   position: relative;
   width: 100%;
-  height: 92.5vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; }
+  height: 92.5vh; }
   .main-content {
     width: 90%; }
   .main-orders {
@@ -33,7 +33,7 @@ img {
     background-clip: padding-box;
     border: 5px solid transparent;
     background: #FFF; }
-    .main-orders:before {
+    .main-orders::before {
       content: "";
       position: absolute;
       top: 0;
@@ -54,6 +54,9 @@ img {
     background-size: 200%; }
 
 .order {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   top: -20px;
   left: 8px;
@@ -62,10 +65,7 @@ img {
   font-size: 14px;
   font-weight: bold;
   padding: 8px 12px;
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
+  border-radius: 4px; }
   .order-title {
     padding-right: 10px; }
 
@@ -76,7 +76,7 @@ a {
   border-bottom: 1px solid #061826; }
 
 h1 {
-  background: #40E0D0;
+  background: #FF8C00;
   background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);
   background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);
   -webkit-background-clip: text;
@@ -102,10 +102,10 @@ h3 {
     border-bottom: 1px solid #E7E7E7; }
 
 .icons {
-  width: 24px;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  width: 24px; }
   .icons > img {
     width: 18px;
     vertical-align: middle; }
@@ -145,11 +145,11 @@ h3 {
       margin: 12px auto;
       border-radius: 4px; }
   .gallery-item__details {
-    padding: 12px 0px 4px;
-    border-top: 1px solid #DDD;
     display: flex;
     align-items: center;
-    justify-content: space-between; }
+    justify-content: space-between;
+    padding: 12px 0px 4px;
+    border-top: 1px solid #DDD; }
   .gallery-item__title {
     padding: 4px 0 8px;
     font-size: 14px;
@@ -189,6 +189,9 @@ h3 {
     padding: 8px 12px; }
 
 .arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   right: 0;
   bottom: -80%;
@@ -198,9 +201,6 @@ h3 {
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   text-decoration: none; }
   .arrow-image {
     filter: invert(1);
@@ -237,12 +237,12 @@ h3 {
     transform: rotate(180deg); }
 
 .footer-message {
-  margin: 60px auto;
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column; }
+  flex-direction: column;
+  margin: 60px auto;
+  width: 100%; }
   .footer-message-text {
     color: #555; }
 
