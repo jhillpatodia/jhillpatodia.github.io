@@ -2,6 +2,14 @@
 $empty: '';
 $white: #FFF;
 
+// mixins
+@mixin flex($align: null, $justify: null, $direction: null) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+  flex-direction: $direction;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -22,16 +30,15 @@ img {
 }
 
 .main {
+  @include flex(center, center, column);
   position: relative;
   width: 100%;
   height: 92.5vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+
   &-content {
     width: 90%;
   }
+
   &-orders {
     margin-top: 32px;
     border-radius: 4px;
@@ -42,7 +49,8 @@ img {
     background-clip: padding-box;
     border: 5px solid transparent;
     background: #FFF;
-    &:before {
+
+    &::before {
       content: $empty;
       position: absolute;
       top: 0;
@@ -55,6 +63,7 @@ img {
       background: linear-gradient(to right, red, orange);
     }
   }
+
   &-background {
     position: absolute;
     bottom: 0;
@@ -67,6 +76,7 @@ img {
 }
 
 .order {
+  @include flex(center, center);
   position: absolute;
   top: -20px;
   left: 8px;
@@ -76,9 +86,7 @@ img {
   font-weight: bold;
   padding: 8px 12px;
   border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
   &-title {
     padding-right: 10px;
   }
@@ -92,7 +100,7 @@ a {
 }
 
 h1 {
-  background: #40E0D0;  // fallback
+  background: #FF8C00;  // fallback
   background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);
   background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);
   -webkit-background-clip: text;
@@ -106,19 +114,18 @@ h3 {color: #061826;}
 .mr-8 {margin-right: 8px;}
 
 .contact {
-  display: flex;
-  align-items: center;
+  @include flex(center);
   padding: 8px 0;
+
   &:not(:last-child) {
     border-bottom: 1px solid #E7E7E7;
   }
 }
 
 .icons {
+  @include flex(center, center);
   width: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
   > img {
     width: 18px;
     vertical-align: middle;
@@ -130,6 +137,7 @@ h3 {color: #061826;}
   height: 16px;
   border: 2px solid #FFF;
   border-radius: 50%;
+
   > img {
     width: 16px;
   }
@@ -156,6 +164,7 @@ h3 {color: #061826;}
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
+
     &::after {
       content: $empty;
       display: block;
@@ -166,14 +175,15 @@ h3 {color: #061826;}
       border-radius: 4px;
     }
   }
+
   &-item {
+
     &__details {
+      @include flex(center, space-between);
       padding: 12px 0px 4px;
       border-top: 1px solid #DDD;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
     }
+
     &__title {
       padding: 4px 0 8px;
       font-size: 14px;
@@ -185,6 +195,7 @@ h3 {color: #061826;}
       overflow: hidden;
       width: 286px;
     }
+
     &__head {
       padding-bottom: 2px;
       font-size: 10px;
@@ -192,6 +203,7 @@ h3 {color: #061826;}
       color: #2A2A2A;
       text-transform: uppercase;
     }
+
     &__desc {
       font-size: 12px;
       color: #777;
@@ -201,6 +213,7 @@ h3 {color: #061826;}
 
 // Photoswipe
 .pswp {
+  
   &-thumbnails {
     display: grid;
     place-items: center;
@@ -219,12 +232,14 @@ h3 {color: #061826;}
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   border-radius: 2px;
   overflow: hidden;
+  
   &-details {
     padding: 8px 12px;
   }
 }
 
 .arrow {
+  @include flex(center, center);
   position: absolute;
   right: 0;
   bottom: -80%;
@@ -234,9 +249,6 @@ h3 {color: #061826;}
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   text-decoration: none;
 
   &-image {
@@ -277,6 +289,7 @@ h3 {color: #061826;}
   font-weight: bold;
   text-transform: uppercase;
   color: #FAFAFA;
+
   &-image {
     width: 16px;
     transform: rotate(180deg);
@@ -284,12 +297,10 @@ h3 {color: #061826;}
 }
 
 .footer-message {
+  @include flex(center, center, column);
   margin: 60px auto;
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+
   &-text {
     color: #555;
   }
@@ -298,10 +309,12 @@ h3 {color: #061826;}
 @media screen and (min-width: 481px) {
   .main {
     height: 100vh;
+  
     &-content {
       width: 90%;
       max-width: 390px;
     }
+  
     &-background {
       background-size: unset;
     }
@@ -337,11 +350,14 @@ h3 {color: #061826;}
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;
+  
   &-track {
     background: #EEE;
   }
+  
   &-thumb {
     background: #777;
+  
     &:hover {
       background: #555;
     }

@@ -9,12 +9,12 @@
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="theme-color" content="#FFFFFF">
     <meta name="description" content="Jhill is an Indian artist who has deep knowledge in painting of almost all types, she has done her masters in Painting. Creative thinking, passion, dreamer and nature lover are the words which describes her well.">
-    <meta name="keywords" content="Painting, Paintings, art, arts, craft, crafts, artist, freelancer, order, oil painting, water color, charcoal, pencil, ink on paper, paper, etching, lithography, brush, color, pastel, crayon, wax, wood, stone">
+    <meta name="keywords" content="painting, paintings, art, arts, craft, crafts, artist, freelancer, order, oil painting, water color, charcoal, pencil, ink on paper, paper, etching, lithography, brush, color, pastel, crayon, wax, wood, stone">
     <meta name="author" content="Jhill Patodia">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.png">
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Start of Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146805873-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -23,8 +23,12 @@
 
       gtag('config', 'UA-146805873-1');
     </script>
+    <!-- End of Global site tag -->
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:400" rel="stylesheet">
+    <!-- Lato Font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+
+    <!-- Start of Structured Data -->
     <script data-schema="Organization" type="application/ld+json">
     {
       "name": "Jhill's Art and Crafts",
@@ -34,9 +38,40 @@
       "@context": "http://schema.org"
     }
     </script>
+    <!-- End of Structured Data -->
+
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+    <!-- Start of Async Drift Code -->
+    <script>
+      "use strict";
+  
+      !function() {
+        var t = window.driftt = window.drift = window.driftt || [];
+        if (!t.init) {
+          if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+          t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+          t.factory = function(e) {
+            return function() {
+              var n = Array.prototype.slice.call(arguments);
+              return n.unshift(e), t.push(n), t;
+            };
+          }, t.methods.forEach(function(e) {
+            t[e] = t.factory(e);
+          }), t.load = function(t) {
+            var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+            o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+            var i = document.getElementsByTagName("script")[0];
+            i.parentNode.insertBefore(o, i);
+          };
+        }
+      }();
+      drift.SNIPPET_VERSION = '0.3.1';
+      drift.load('y8u6tyggz42f');
+    </script>
+    <!-- End of Async Drift Code -->
   </body>
 </html>

@@ -21,11 +21,14 @@ class Ps extends React.Component {
   getThumbnailContent = (item) => {
     return (
       <div className="card">
-        <LazyLoad height={240} once>
+        <LazyLoad height={240}>
           <img src={item.thumb} width={320} height={240} style={{objectFit: 'cover'}} alt='' />
         </LazyLoad>
         <div className="card-details">
-          <div className="gallery-item__title">{item.title}</div>
+          <div
+            className="gallery-item__title"
+            title={item.title}
+          >{item.title}</div>
           <div className="gallery-item__details">
             <div className="gallery-item__surface">
               <div className="gallery-item__head">surface</div>
@@ -45,7 +48,7 @@ class Ps extends React.Component {
     );
   }
 
-  _getItems = (e) => {
+  _getItems = () => {
     let allData = data;
     const customParams = {
       w: 1200,
